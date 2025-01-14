@@ -1,0 +1,57 @@
+databaseChangeLog:
+
+  - include:
+      file: ddl/20240827-01-create-table-users.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: ddl/20240902-01-create-table-offices.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: ddl/20240902-02-create-table-workspaces.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: ddl/20240902-03-create-table-workplaces.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: DDL/20240829-02-create-table-roles.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: DDL/20240829-02-create-table-users_roles.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: DML/20240829-02-create-roles-and-admin.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: ddl/20240905-01-create-table-reservations.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: dml/20241124-01-create-users.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: dml/20241124-02-create-users-roles.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: dml/20241124-03-create-offices.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: dml/20241124-04-create-workspaces.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: dml/20241124-05-create-workplaces.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: dml/20241124-06-create-reservations.sql
+      relativeToChangelogFile: true

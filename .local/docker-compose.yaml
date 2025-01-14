@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:14.1
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: "workplace-booking-db"
+      POSTGRES_USER: "workplace-booking"
+      POSTGRES_PASSWORD: "workplace-booking"
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+
+volumes:
+  pg-data:
